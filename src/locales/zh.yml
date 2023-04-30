@@ -1,0 +1,6 @@
+commands:
+  glm-translate:
+    messages:
+      prompt:
+        start: 以下的对话我说{ 中文 }，你把他翻译成{英文}：/n“{text}”
+        base:

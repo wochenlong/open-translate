@@ -1,0 +1,28 @@
+{
+  "name": "koishi-plugin-glm-translate",
+  "description": "利用chatglm和gpt进行智能翻译",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "koishi": {
+    "service": {
+      "required": [
+        "gpt"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "4.12.0"
+  }
+}
